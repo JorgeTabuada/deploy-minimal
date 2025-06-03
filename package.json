@@ -1,0 +1,43 @@
+{
+  "name": "deploy-minimal-multipark",
+  "version": "1.0.0",
+  "description": "Sistema Multipark simplificado com base Dashboard única",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm -rf .next node_modules && npm install",
+    "reset": "rm -rf .next && npm run dev"
+  },
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.15"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JorgeTabuada/deploy-minimal.git"
+  },
+  "keywords": [
+    "multipark",
+    "dashboard",
+    "supabase",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Jorge Tabuada",
+  "license": "MIT"
+}
